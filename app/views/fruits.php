@@ -30,6 +30,8 @@
                 <?= $data["fruit Rows"] ?>
             </tbody>
         </table>
+
+        <a type="button" href="http://mvc-toets.org/" class="btn btn-secondary">Go Back</a>
     </div>
 
     <!-- Optional JavaScript; choose one of the two! -->

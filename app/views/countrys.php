@@ -13,7 +13,7 @@
   <body>
 
   <div class="container">
-        <h1 class="text-center mt-5 border-bottom border-dark">Country PAGE</h1>
+        <h1 class="text-center mt-5 border-bottom border-dark">Country Page</h1>
 
         <table class="table mt-5">
             <thead>
@@ -31,6 +31,8 @@
                 <?= $data["country Rows"] ?>
             </tbody>
         </table>
+
+        <a type="button" href="http://mvc-toets.org/" class="btn btn-secondary">Go Back</a>
     </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
