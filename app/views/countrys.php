@@ -1,12 +1,3 @@
-<?php
-/* This is how you echo out database information on the screen
-foreach ($data['users'] as $user) {
-    echo "Information: " . $user->user_name . $user->user_email;
-    echo "<br>";
-}
-*/
-?>
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -17,20 +8,31 @@ foreach ($data['users'] as $user) {
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Country</title>
   </head>
   <body>
-    
-    <h1 class="text-center">Home Pagina</h1>
 
-    <div class="container border-top border-dark">
-        <div class="row">
-            <h3 class="text-center mt-2"><a href="http://mvc-toets.org/fruits">Fruits Pagina</a></h3>
-            <h3 class="text-center mt-2"><a href="http://mvc-toets.org/countries">Countrie Pagina</a></h3>
-        </div>
+  <div class="container">
+        <h1 class="text-center mt-5 border-bottom border-dark">Country PAGE</h1>
+
+        <table class="table mt-5">
+            <thead>
+                <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Land</th>
+                <th scope="col">Hoofdstad</th>
+                <th scope="col">Continent</th>
+                <th scope="col">Inwoners</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                </tr>
+                <?= $data["country Rows"] ?>
+            </tbody>
+        </table>
     </div>
 
-    
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
