@@ -25,8 +25,7 @@ foreach ($data['users'] as $user) {
 
     <div class="container border-top border-dark">
         <div class="row">
-            <h3 class="text-center mt-2"><a href="http://mvc-toets.org/fruits">Fruits Pagina</a></h3>
-            <h3 class="text-center mt-2"><a href="http://mvc-toets.org/countries">Countries Pagina</a></h3>
+            <h3 class="text-center mt-2"><a href="http://mvc-toets-herkansing.org/rollercoasters/index">rollercoasters</a></h3>
         </div>
     </div>
 
